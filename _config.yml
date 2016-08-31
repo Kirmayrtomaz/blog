@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-author: John Doe
-language:
-timezone:
+title: Kirmayr 
+subtitle: Blog de tecnologia e saúde
+description: Blog sobre assuntos de desenvolvimento web voltando para o frontend e vida saudável.
+author: Kirmayr Tomaz
+language: pt_br
+timezone: America/Manaus
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /
+url: http://kirmayrtomaz.github.io/
+root: /blog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -40,11 +40,11 @@ future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
-  tab_replace:
+  auto_detect: true
+  tab_replace: 
 
 # Category & Tag
-default_category: uncategorized
+default_category: todos
 category_map:
 tag_map:
 
@@ -60,6 +60,15 @@ time_format: HH:mm:ss
 per_page: 10
 pagination_dir: page
 
+admin:
+    name: admin
+    password: admin
+    secret: hey hexo
+    expire: 60*1
+
+sitemap:
+    path: sitemap.xml
+
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
@@ -68,4 +77,18 @@ theme: again
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/Kirmayrtomaz/blog.git
+  branch: ["gh-pages"]
+
+
+
+imagemin:
+  enable     : true
+  interlaced : false
+  multipass  : false
+  optimizationLevel: 3
+  pngquant   : false
+  progressive: false
+
+
