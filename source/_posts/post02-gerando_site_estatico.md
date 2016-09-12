@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-title: Criando sites performáticos com HEXO (Parte 2 - 2)[construção]
-=======
 title: Criando sites performáticos com HEXO (Parte 2 - 2)
->>>>>>> master
 tags:
   - javascript
   - node
@@ -24,11 +20,8 @@ Para coloca-lo no meu template vc pode simplismente baixa-lo e inserir na pasta 
 git clone https://github.com/DrakeLeung/hexo-theme-again.git again
 ```
 
-<<<<<<< HEAD
-Depois disso precisa baixar uma nova dependência pois o template precisa do preprocessador Sass
-=======
 Depois disso, precisei baixar uma nova dependência pois o template precisa utiliza o pre-processador   Sass
->>>>>>> master
+
 
 ``` bash
 npm install --save hexo-renderer-sass
@@ -38,10 +31,6 @@ npm install --save hexo-renderer-sass
 E por último vc precisa alterar o arquivo de configuração `_config.yml` do tema e trocar-lo para again que é o nome do template
 
 
-<<<<<<< HEAD
-
-=======
->>>>>>> master
 ## Estrutura do template
 
 A estrutura do template é composto das seguintes pastas
@@ -89,14 +78,9 @@ social:
 
 ```
 
-<<<<<<< HEAD
 
-=======
 No nav, será inserido o menu de navegação. Cada link será um item do menu
->>>>>>> master
 
-``` yml
-# nav #
 nav:
   home: .
   archive: archives
@@ -104,8 +88,7 @@ nav:
   rss: sitemap.xml
 
 ```
-<<<<<<< HEAD
-=======
+
 
 
 
@@ -289,4 +272,4 @@ $ npm install hexo-generator-sitemap --save
 
 # Conclusão
 O artigo foi curtinho, mas a ideia é mostrar que o **hexo** é uma ferramente muito poderosa e as facilidades de criar um blog ou site são muitas. Tanto que em poucos minutos vc consegue fazer seu site rodar rapidamente
->>>>>>> master
+
