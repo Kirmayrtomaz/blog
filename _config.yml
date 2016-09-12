@@ -79,7 +79,7 @@ theme: again
 deploy:
   type: git
   repo: https://github.com/Kirmayrtomaz/blog.git
-  branch: ["gh-pages"]
+  branch: ["master"]
 
 
 
