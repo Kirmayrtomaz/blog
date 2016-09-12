@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Kirmayr 
+title: Kirmayr
 subtitle: Blog de tecnologia e saúde
 description: Blog sobre assuntos de desenvolvimento web voltando para o frontend e vida saudável.
 author: Kirmayr Tomaz
@@ -15,7 +15,6 @@ timezone: America/Manaus
 url: http://kirmayrtomaz.github.io/
 root: /blog/
 permalink: :year/:month/:day/:title/
-permalink_defaults:
 
 # Directory
 source_dir: source
@@ -41,12 +40,13 @@ highlight:
   enable: true
   line_number: true
   auto_detect: true
-  tab_replace: 
+
+
 
 # Category & Tag
 default_category: todos
-category_map:
-tag_map:
+
+
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
@@ -90,5 +90,4 @@ imagemin:
   optimizationLevel: 3
   pngquant   : false
   progressive: false
-
 
